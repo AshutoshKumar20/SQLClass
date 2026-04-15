@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
 });
 
 try {
-    connection.query("SHOW DATABASES", (err, results) => {
+    connection.query("show tables", (err, results) => {
         if (err) throw err;
         console.log(results);
 
