@@ -1,6 +1,6 @@
 create table user (
-    id int primary key,
+    id varchar(50) primary key,
     username varchar(40),
-    email varchar(50),
+    email varchar(40),
     password varchar(20)
-);
+)
